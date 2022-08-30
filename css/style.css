@@ -419,6 +419,9 @@ nav div.logo a img{
     .clearfix{
         margin-left: 0;
     }
+    nav {
+        height: 70px !important;
+    }
     .navTrigger {
         display: block;
     }
@@ -482,11 +485,11 @@ nav div.logo a img{
         color: #fff;
     }
 
-    .intro-font p{
+    /* .intro-font p{
         font-size: 4rem !important;
         margin-top: 0 !important;
         line-height: 180% !important;
-    }
+    } */
 
     .intro-font img {
         width: 90%;
@@ -500,6 +503,145 @@ nav div.logo a img{
     .scroll-icon{
       font-size: 2rem !important;
     }
+
+    /*customizing*/
+    .main-title{
+        font-size: 2.6rem !important;
+    }
+
+    .main-sub{
+        font-size: 1.8rem !important;
+    }
+    .app-img{
+        width: 60% !important;
+        margin-top: 10% !important;
+        margin-bottom: 10% !important;
+    }
+    .app-title{
+        text-align: center !important;
+        font-size: 8rem !important;
+    }
+    .app-sub{
+        font-size: 1.6rem !important;
+        text-align: center !important;    
+    }
+    .app-buttons{
+        margin-top: 15% !important; 
+        text-align: center !important;
+    }
+    .contract-img{
+        width: 90% !important;
+        margin-bottom: 5% !important;
+        margin-top: 5% !important;
+    }
+    .contract-title{
+        font-size: 2.1rem !important;
+        margin-bottom: 5% !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+    }
+
+    .contract-sub {
+        font-size: 1.7rem !important;
+        text-align: left !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        margin-bottom: 5% !important;
+    }
+
+    .service-title{
+        font-size: 4rem;
+        margin-bottom: 5%;
+        text-align: left;
+        color: #000;
+        font-family: "TmonMonsori";
+        text-shadow: 2px 4px 5px grey;
+    }
+
+    .service-img1{
+        width: 40% !important;
+    }
+    
+    .service-img2{
+        width: 40% !important;
+    }
+
+    .service-sub-1{
+        font-size: 3.9rem !important;
+    }
+
+    .service-sub-2 p{
+        font-size: 1.4rem !important;
+    }
+
+    .intro-title{
+        font-size: 5rem;
+        color: #fff;
+        font-family: "TmonMonsori";
+        text-shadow: 10px 13px 23px black;
+    }
+    .intro-sub{
+        font-size: 2rem;
+        color: #fff;
+        /* font-family: "TmonMonsori"; */
+        font-family: "GmarketSansTTFMedium";
+        text-shadow: 10px 13px 23px black;
+    }
+
+    .ceo-int{
+        font-size: 4rem;
+        margin-bottom: 5% !important;
+    }
+
+    .emp-int{
+        font-size: 2.9rem;   
+    }
+
+    .ceo-int img{
+        width: 40% !important;
+    }
+    
+    .emp-int img{
+       width: 40% !important;
+    }
+
+    .contact-title {
+        font-size: 2.5rem;
+        color: #ffffff;
+        font-family: "TmonMonsori";
+        margin-top: 10%;
+        text-shadow: 10px 13px 23px black;
+    }
+
+    .contract-img1{
+        width: 90% !important;
+    }
+    
+    .contract-img2{
+        width: 90% !important;
+    }
+
+    .contact-title {
+        font-size: 2.5rem;
+        color: #ffffff;
+        font-family: "TmonMonsori";
+        margin-top: 10%;
+        text-shadow: 10px 13px 23px black;
+    }
+
+    .phone-box {
+        font-size: 4rem !important;
+    }
+    .contact-sub {
+        margin-top: 5% !important;
+        font-size: 1.3rem !important;
+        margin-left: 5% !important;
+    }
+
+
+
+
+
 
     .partner-part{
         height: 45px !important;
@@ -647,6 +789,27 @@ nav div.logo a img{
       font-size: 1.5rem !important;
     }
 
+    .service-sub-1 p{
+        font-size: 3rem !important;
+    }
+
+    .service-sub-1 p{
+        font-size: 1.5rem !important;
+    }
+
+    .service-sub-2{
+        font-size: 3rem !important;
+    }
+
+    .service-sub-2 p{
+        font-size: 1.4rem !important;
+    }
+
+    .intro-sub {
+        font-size: 1.5rem !important;
+        margin-bottom: 10% !important;
+    }
+
     .partner-part{
         height: 45px !important;
         line-height: 56px;
@@ -731,9 +894,9 @@ nav div.logo a img{
         margin-left: 15px;
     }
     nav div.logo a img{
-        width: 130px;
+        width: 45px;
         float: left;
-        
+        margin-top: 13px;
     }
     nav div.main_list {
         width: 100%;
@@ -794,6 +957,9 @@ nav div.logo a img{
     .scroll-icon{
       font-size: 1.5rem !important;
     }
+
+
+
 
     .partner-part{
         height: 45px !important;
@@ -1247,7 +1413,7 @@ padding: 0 10px;
     color: #fff;
 }
 
-
+/*customizing*/
 .main-title{
     text-align: left;
     font-size: 6rem;
@@ -1262,11 +1428,15 @@ padding: 0 10px;
     font-family: "TmonMonsori";
     text-shadow: 5px 6px 23px black;
 }
-
+.app-img{
+    width: 70%;
+    margin-top: 20%;
+}
 .app-title{
     text-align: left;
     font-size: 14rem;
     width: 100%; 
+    color: #FFF;
     font-family: "TmonMonsori";
     text-shadow: 10px 13px 23px black;
 }
@@ -1277,7 +1447,17 @@ padding: 0 10px;
     color: #FFD664;
     text-shadow: 5px 6px 23px black;
 }
+.app-buttons{
+    margin-top: 5%; 
+    text-align: left;
+}
+.contract-img1{
+    width: 70% ;
+}
 
+.contract-img2{
+    width: 50% ;
+}
 .contract-title{
     font-size: 4rem;
     margin-bottom: 5%;
@@ -1304,6 +1484,14 @@ padding: 0 10px;
     color: #000;
     font-family: "TmonMonsori";
     text-shadow: 2px 4px 5px grey;
+}
+
+.service-img1{
+    width: 50%;
+}
+
+.service-img2{
+    width: 47%;
 }
 
 .service-sub-1{
@@ -1366,12 +1554,26 @@ padding: 0 10px;
     font-family: "TmonMonsori";
 }
 
+.ceo-int img{
+    width: 50%;
+}
+
+.emp-int img{
+   width: 50%;
+}
+
 .contact-title {
     font-size: 2.5rem;
     color: #ffffff;
     font-family: "TmonMonsori";
     margin-top: 10%;
     text-shadow: 10px 13px 23px black;
+}
+
+.phone-box {
+    font-family: "TmonMonsori";
+    margin-top: 15%; 
+    font-size: 6rem;
 }
 
 .contact-sub {
