@@ -62,7 +62,8 @@
 }
 @font-face {
     font-family: "TmonMonsori";
-  src:url("../font/TmonMonsori.woff2") format("woff"),
+  src:url("../font/TmonMonsori.ttf") format("woff"),
+  url("../font/TmonMonsori.ttf") format("woff2"),
     url("../font/TmonMonsori.ttf") format("truetype");
       font-weight: normal;
   font-style: normal;
