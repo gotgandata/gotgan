@@ -416,6 +416,9 @@ nav div.logo a img{
 }
 
 @media screen and (max-width:1024px) {
+    .container {
+        max-width: 1024px;
+    }
     .clearfix{
         margin-left: 0;
     }
@@ -431,7 +434,7 @@ nav div.logo a img{
         
     }
     nav div.logo a img{
-        width: 130px;
+        width: 65px;
         float: left;
         
     }
@@ -567,7 +570,14 @@ nav div.logo a img{
     }
 
     .service-sub-1{
-        font-size: 3.9rem !important;
+        font-size: 3.2rem !important;
+    }
+    .service-sub-2{
+        font-size: 3.2rem !important;
+    }
+
+    .service-sub-1 p{
+        font-size: 1.4rem !important;
     }
 
     .service-sub-2 p{
@@ -576,16 +586,9 @@ nav div.logo a img{
 
     .intro-title{
         font-size: 5rem;
-        color: #fff;
-        font-family: "TmonMonsori";
-        text-shadow: 10px 13px 23px black;
     }
     .intro-sub{
-        font-size: 2rem;
-        color: #fff;
-        /* font-family: "TmonMonsori"; */
-        font-family: "GmarketSansTTFMedium";
-        text-shadow: 10px 13px 23px black;
+        font-size: 1.3rem !important;
     }
 
     .ceo-int{
@@ -630,12 +633,12 @@ nav div.logo a img{
     }
 
     .phone-box {
-        font-size: 4rem !important;
+        font-size: 6rem !important;
     }
     .contact-sub {
         margin-top: 5% !important;
-        font-size: 1.3rem !important;
-        margin-left: 5% !important;
+        font-size: 2rem !important;
+        margin-left: 18% !important;
     }
 
 
@@ -724,7 +727,7 @@ nav div.logo a img{
         margin-left: 15px;
     }
     nav div.logo a img{
-        width: 130px;
+        width: 60px;
     }
     nav div.main_list {
         width: 100%;
@@ -789,6 +792,69 @@ nav div.logo a img{
       font-size: 1.5rem !important;
     }
 
+
+    /*customizing*/
+    .main-title{
+        font-size: 2.6rem !important;
+    }
+
+    .main-sub{
+        font-size: 1.8rem !important;
+    }
+    .app-img{
+        width: 60% !important;
+        margin-top: 10% !important;
+        margin-bottom: 10% !important;
+    }
+    .app-title{
+        text-align: center !important;
+        font-size: 8rem !important;
+    }
+    .app-sub{
+        font-size: 1.6rem !important;
+        text-align: center !important;    
+    }
+    .app-buttons{
+        margin-top: 15% !important; 
+        text-align: center !important;
+    }
+    .contract-img{
+        width: 90% !important;
+        margin-bottom: 5% !important;
+        margin-top: 5% !important;
+    }
+    .contract-title{
+        font-size: 2.1rem !important;
+        margin-bottom: 5% !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+    }
+
+    .contract-sub {
+        font-size: 1.7rem !important;
+        text-align: left !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        margin-bottom: 5% !important;
+    }
+
+    .service-title{
+        font-size: 4rem;
+        margin-bottom: 5%;
+        text-align: left;
+        color: #000;
+        font-family: "TmonMonsori";
+        text-shadow: 2px 4px 5px grey;
+    }
+
+    .service-img1{
+        width: 40% !important;
+    }
+    
+    .service-img2{
+        width: 40% !important;
+    }
+
     .service-sub-1 p{
         font-size: 3rem !important;
     }
@@ -805,10 +871,71 @@ nav div.logo a img{
         font-size: 1.4rem !important;
     }
 
+    .intro-title{
+        font-size: 5rem;
+        color: #fff;
+        font-family: "TmonMonsori";
+        text-shadow: 10px 13px 23px black;
+    }
+
     .intro-sub {
         font-size: 1.5rem !important;
         margin-bottom: 10% !important;
     }
+
+    .ceo-int{
+        font-size: 4rem;
+        margin-bottom: 5% !important;
+    }
+
+    .emp-int{
+        font-size: 2.9rem;   
+    }
+
+    .ceo-int img{
+        width: 40% !important;
+    }
+    
+    .emp-int img{
+       width: 40% !important;
+    }
+
+    .contact-title {
+        font-size: 2.5rem;
+        color: #ffffff;
+        font-family: "TmonMonsori";
+        margin-top: 10%;
+        text-shadow: 10px 13px 23px black;
+    }
+
+    .contract-img1{
+        width: 90% !important;
+    }
+    
+    .contract-img2{
+        width: 90% !important;
+    }
+
+    .contact-title {
+        font-size: 2.5rem;
+        color: #ffffff;
+        font-family: "TmonMonsori";
+        margin-top: 10%;
+        text-shadow: 10px 13px 23px black;
+    }
+
+    .phone-box {
+        font-size: 4rem !important;
+    }
+    .contact-sub {
+        margin-top: 5% !important;
+        font-size: 1.3rem !important;
+        margin-left: 5% !important;
+    }
+
+    
+
+    
 
     .partner-part{
         height: 45px !important;
@@ -883,9 +1010,12 @@ nav div.logo a img{
 }
 
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:720px) {
     .clearfix{
         margin-left: 0;
+    }
+    nav {
+        height: 50px !important;
     }
     .navTrigger {
         display: block;
@@ -896,7 +1026,7 @@ nav div.logo a img{
     nav div.logo a img{
         width: 45px;
         float: left;
-        margin-top: 13px;
+        margin-top: 4px;
     }
     nav div.main_list {
         width: 100%;
@@ -934,6 +1064,10 @@ nav div.logo a img{
         display: block;
     }
 
+    .container {
+        min-width: 0;
+    }
+
     p.result{
       font-size: 2rem !important;
       height: 29px !important;
@@ -958,6 +1092,135 @@ nav div.logo a img{
       font-size: 1.5rem !important;
     }
 
+
+/*customizing*/
+    .main-title{
+        font-size: 2rem !important;
+    }
+
+    .main-sub{
+        font-size: 1.5rem !important;
+    }
+    .app-img{
+        width: 60% !important;
+        margin-top: 10% !important;
+        margin-bottom: 10% !important;
+    }
+    .app-title{
+        text-align: center !important;
+        font-size: 8rem !important;
+    }
+    .app-sub{
+        font-size: 1.3rem !important;
+        text-align: center !important;    
+    }
+    .app-buttons{
+        margin-top: 15% !important; 
+        text-align: center !important;
+    }
+    .contract-img{
+        width: 90% !important;
+        margin-bottom: 5% !important;
+        margin-top: 5% !important;
+    }
+    .contract-title{
+        font-size: 1.8rem !important;
+        margin-bottom: 5% !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+    }
+
+    .contract-sub {
+        font-size: 1.3rem !important;
+        text-align: left !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        margin-bottom: 5% !important;
+    }
+
+    .service-title{
+        font-size: 3rem !important;
+    }
+
+    .service-img1{
+        width: 40% !important;
+    }
+    
+    .service-img2{
+        width: 40% !important;
+    }
+
+    .service-sub-1{
+        font-size: 2.1rem !important;
+    }
+
+    .service-sub-1 p{
+        font-size: 1rem !important;
+    }
+
+    .service-sub-2{
+        font-size: 2.1rem !important;
+    }
+
+    .service-sub-2 p{
+        font-size: 1rem !important;
+    }
+
+    .intro-title{
+        font-size: 3rem !important;
+    }
+
+    .intro-sub {
+        font-size: 1rem !important;
+        margin-bottom: 10% !important;
+    }
+    
+    .ceo-int{
+        font-size: 4rem;
+        margin-bottom: 5% !important;
+    }
+
+    .emp-int{
+        font-size: 2.9rem;   
+    }
+
+    .ceo-int img{
+        width: 40% !important;
+    }
+    
+    .emp-int img{
+       width: 40% !important;
+    }
+
+    .contact-title {
+        font-size: 2.5rem;
+        color: #ffffff;
+        font-family: "TmonMonsori";
+        margin-top: 10%;
+        text-shadow: 10px 13px 23px black;
+    }
+
+    .contract-img1{
+        width: 90% !important;
+    }
+    
+    .contract-img2{
+        width: 90% !important;
+    }
+
+    .contact-title {
+        margin-top: 6% !important;
+    }
+
+    .phone-box {
+        font-size: 3rem !important;
+        margin-top: 0 !important;
+    }
+    .contact-sub {
+        margin-top: 5% !important;
+        font-size: 1.2rem !important;
+        margin-left: 0 !important;
+    }
 
 
 
@@ -1235,6 +1498,9 @@ nav div.logo a img{
 	#section1,
 	#section2,
 	#section3,
+    #section4,
+    #section5,
+    #section6,
     #slide1,
     #slide2{
 		background-size: cover;
