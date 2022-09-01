@@ -1508,20 +1508,12 @@ nav div.logo a img{
 		background-attachment: fixed;
 	}
 #section0{
-	/*background-image: url('https://uploads-ssl.webflow.com/5a7b28c9d44bdc00013c9d36/5a7b28c9d44bdc00013c9d6e_globo%202.jpg');*/
-    /* background-image: url('../images/network1.jpg'); */
-    /* background-image: url('../images/meeting.png'); */
-    /* background-image: url('../images/startup.png'); */
     background-image: url('../images/main2.png');
     background-repeat:no-repeat;
     background-position: center;
 }
 
 #section6{
-	/*background-image: url('https://uploads-ssl.webflow.com/5a7b28c9d44bdc00013c9d36/5a7b28c9d44bdc00013c9d6e_globo%202.jpg');*/
-    /* background-image: url('../images/network1.jpg'); */
-    /* background-image: url('../images/meeting.png'); */
-    /* background-image: url('../images/startup.png'); */
     background-image: url('../images/contact2.png');
     background-repeat:no-repeat;
     background-position: center;
@@ -1566,21 +1558,6 @@ nav div.logo a img{
     width: 100%;
     
   }
-
-/*.typing-demo {
-  width: 48ch;
-  animation: typing 2.5s steps(6), blink .5s  infinite alternate ;
-  height: 37px;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 1.2em;
-  color: #fff;
-  z-index: 999;
-}
-*/
-
 
 @keyframes typing {
   from {
