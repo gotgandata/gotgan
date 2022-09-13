@@ -1820,6 +1820,7 @@ padding: 0 10px;
     font-size: 6rem;
 }
 
+
 .contact-sub {
     margin-top: 5%;
     font-size: 2.5rem;
@@ -1830,7 +1831,10 @@ padding: 0 10px;
     text-shadow: 10px 13px 23px black;
 }
 
-
+.company-box {
+    font-family: "TmonMonsori";
+    color: #FFCD4A;
+}
 
 
 .ceo-part{
