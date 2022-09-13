@@ -14,7 +14,7 @@ $header_top.find('a').on('click', function() {
 
 // fullpage customization
 $('#fullpage').fullpage({
-  sectionsColor: ['#FFFFF', '#568A35', '#F9F9F9', '#F9F9F9', '#164391', '#3E3A45','#FFFFF'],
+  sectionsColor: ['#FFFFF', '#568A35', '#F9F9F9', '#F9F9F9', '#164391', '#3E3A45','#568A35'],
   sectionSelector: '.vertical-scrolling',
   slideSelector: '.horizontal-scrolling',
   navigation: false,
