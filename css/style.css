@@ -1369,11 +1369,13 @@ nav div.logo a img{
     background-position: center;
 } */
 #section6{
-    background-image: url('../images/contact4.png');
+    background-image: url('../images/contact3.png');
     background-repeat:no-repeat;
     background-position: center;
+}
+section {
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
 }
 
 #section0 h2, #section0 h3 {
