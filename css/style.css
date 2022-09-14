@@ -1554,6 +1554,10 @@ padding: 0 10px;
     text-align: left;
 }
 
+.app-button-area{
+    margin-top: 5%;
+}
+
 .contract-title{
     font-size: 4rem;
     margin-top: 10%;
