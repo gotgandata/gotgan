@@ -246,6 +246,7 @@ ul, li {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 section { 
+    background-attachment:initial; 
 	text-align: center;
   /*background: url('https://unsplash.it/1910/1221?image=626') no-repeat center / cover;*/
 }
