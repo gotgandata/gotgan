@@ -246,7 +246,6 @@ ul, li {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 section { 
-    background-attachment:initial; 
 	text-align: center;
   /*background: url('https://unsplash.it/1910/1221?image=626') no-repeat center / cover;*/
 }
@@ -291,7 +290,11 @@ h3 {
 
 /* MQ STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+@media (max-width:640px) {
+    section {
+      background-attachment:initial;
+    }
+  }
 @media screen and (max-width: 767px) {
 	nav ul {
 		-webkit-box-orient: vertical;
