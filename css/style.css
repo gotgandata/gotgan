@@ -290,11 +290,7 @@ h3 {
 
 /* MQ STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media (max-width:640px) {
-    section {
-      background-attachment:initial;
-    }
-  }
+
 @media screen and (max-width: 767px) {
 	nav ul {
 		-webkit-box-orient: vertical;
@@ -1352,23 +1348,20 @@ nav div.logo a img{
     background-image: url('../images/main_img.png');
     background-repeat:no-repeat;
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+
 }
 #section2{
-    background-image: url('../images/handshake2.png');
+    background-image: url('../images/handshake.png');
     background-repeat:no-repeat;
     background-position: right;
-    background-size: cover;
-    background-attachment: fixed;
+  
 }
 
 #section4{
-    background-image: url('../images/company2.png');
+    background-image: url('../images/company.png');
     background-repeat:no-repeat;
     background-position: left;
-    background-size: cover;
-    background-attachment: fixed;
+
 }
 /* #section5{
     background-image: url('../images/contact2.png');
