@@ -1350,13 +1350,13 @@ nav div.logo a img{
     background-position: center;
 }
 #section2{
-    background-image: url('../images/handshake.png');
+    background-image: url('../images/handshake2.png');
     background-repeat:no-repeat;
     background-position: right;
 }
 
 #section4{
-    background-image: url('../images/paper.png');
+    background-image: url('../images/company2.png');
     background-repeat:no-repeat;
     background-position: left;
 }
@@ -1366,7 +1366,7 @@ nav div.logo a img{
     background-position: center;
 } */
 #section6{
-    background-image: url('../images/contact3.png');
+    background-image: url('../images/contact4.png');
     background-repeat:no-repeat;
     background-position: center;
 }
