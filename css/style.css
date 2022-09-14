@@ -40,23 +40,37 @@
     font-style: normal;
 }
 @font-face {
-    font-family: "GmarketSansTTFBold";
-  src:url("../font/GmarketSansTTFBold.woff") format("woff"),
-    url("../font/GmarketSansTTFBold.ttf") format("truetype");
+    font-family: "Pretendard-Regular";
+  src:url("../font/Pretendard-Regular.woff") format("woff"),
+    url("../font/Pretendard-Regular.ttf") format("truetype");
       font-weight: normal;
   font-style: normal;
 }
 @font-face {
-    font-family: "GmarketSansTTFLight";
-  src:url("../font/GmarketSansTTFLight.woff") format("woff"),
-    url("../font/GmarketSansTTFLight.ttf") format("truetype");
+    font-family: "Pretendard-Medium";
+  src:url("../font/Pretendard-Medium.woff") format("woff"),
+    url("../font/Pretendard-Medium.ttf") format("truetype");
       font-weight: normal;
   font-style: normal;
 }
 @font-face {
-    font-family: "GmarketSansTTFMedium";
-  src:url("../font/GmarketSansTTFMedium.woff") format("woff"),
-    url("../font/GmarketSansTTFMedium.ttf") format("truetype");
+    font-family: "Pretendard-Bold";
+  src:url("../font/Pretendard-Bold.woff") format("woff"),
+    url("../font/Pretendard-Bold.ttf") format("truetype");
+      font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: "Pretendard-ExtraBold";
+  src:url("../font/Pretendard-ExtraBold.woff") format("woff"),
+    url("../font/Pretendard-ExtraBold.ttf") format("truetype");
+      font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: "Pretendard-Black";
+  src:url("../font/Pretendard-Black.woff") format("woff"),
+    url("../font/Pretendard-Black.ttf") format("truetype");
       font-weight: normal;
   font-style: normal;
 }
@@ -218,7 +232,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 ul, li {
@@ -317,8 +331,8 @@ h3 {
 /* Navbar section */
 nav {
     width: 100%;
-    height: 78px;    
-    line-height: 65px;
+    height: 60px;    
+    line-height: 60px;
     text-align: center;
 	position: fixed;	
 	z-index: 999;
@@ -348,7 +362,7 @@ nav {
  div.main_list {
     height: 65px;
     float: right;
-    width: 110%;
+    width: 100%;
 }
 
  div.main_list ul {
@@ -364,14 +378,15 @@ nav {
     width: auto;
     height: 65px;
     padding: 0;
-    padding-right: 3rem;
+    padding-right: 2rem;
 }
 
  div.main_list ul li a {
     text-decoration: none;
     color: #fff;
-    line-height: 65px;
-    font-size: 2.4rem;
+    
+    font-size: 2rem;
+    font-family: "Pretendard-Medium";
 }
 
  /* div.main_list ul li a:hover {
@@ -393,7 +408,7 @@ nav {
 }
 
 nav {
-    padding-top: 20px !important;
+    
     padding-bottom: 10px !important;
     -webkit-transition: all 0.4s ease !important;
     transition: all 0.4s ease !important;
@@ -401,9 +416,9 @@ nav {
 
 nav div.logo a img{
     float: left;
-    width: 70px;
-    margin-left: 3%;
-    margin-top: 1%;
+    width: 50px;
+    margin-left: 20%;
+    margin-top: 5px;
     }
 
 
@@ -435,9 +450,10 @@ nav div.logo a img{
         
     }
     nav div.logo a img{
-        width: 65px;
-        float: left;
         
+        float: left;
+        margin-left: 5% !important;
+        margin-top: 8px !important;
     }
     nav div.main_list {
         width: 100%;
@@ -509,65 +525,71 @@ nav div.logo a img{
     }
 
     /*customizing*/
+    /** section0 **/
     .main-title{
-        font-size: 2.6rem !important;
+        font-size: 5.6rem !important;
+        margin-left: 10% !important;
     }
-
     .main-sub{
-        font-size: 1.8rem !important;
+        font-size: 2rem !important;
+        margin-left: 10% !important;
+    }
+    /** section1 **/
+    .app-area {
+        margin-left: 10% !important;
+    }
+    .app-sub img {
+        width: 25% !important;
+        margin-bottom: 10% !important;
     }
     .app-img{
-        width: 60% !important;
-        margin-top: 10% !important;
-        margin-bottom: 10% !important;
+        width: 100% !important;
+        padding-right: 0 !important;
     }
     .app-title{
         text-align: center !important;
         font-size: 8rem !important;
     }
     .app-sub{
-        font-size: 1.6rem !important;
-        text-align: center !important;    
+        font-size: 3.3rem !important;
     }
+    .app-sub-2{
+        font-size: 2.2rem !important;
+    }
+
+    .jipsa-button-style{
+        padding: 14px 30px !important;
+        margin-right: 20px !important;
+        font-size: 1.8rem !important;
+    }
+
     .app-buttons{
         margin-top: 15% !important; 
         text-align: center !important;
     }
+    /** section2 **/
     .contract-img{
         width: 90% !important;
         margin-bottom: 5% !important;
         margin-top: 5% !important;
     }
+    .contract-img2{
+        width: 90% !important;
+    }
     .contract-title{
-        font-size: 2.1rem !important;
+        font-size: 4.1rem !important;
         margin-bottom: 5% !important;
-        text-align: center !important;
         margin-left: 0 !important;
     }
 
     .contract-sub {
-        font-size: 1.7rem !important;
-        text-align: left !important;
-        margin-left: 5% !important;
-        margin-right: 5% !important;
-        margin-bottom: 5% !important;
+        font-size: 2.4rem !important;
+        margin-left: 0% !important;
     }
 
+        /** section3 **/
     .service-title{
-        font-size: 4rem;
-        margin-bottom: 5%;
-        text-align: left;
-        color: #000;
-        font-family: "TmonMonsori";
-        text-shadow: 2px 4px 5px grey;
-    }
-
-    .service-img1{
-        width: 40% !important;
-    }
-    
-    .service-img2{
-        width: 40% !important;
+        font-size: 4rem !important;
     }
 
     .service-sub-1{
@@ -585,136 +607,46 @@ nav div.logo a img{
         font-size: 1.4rem !important;
     }
 
+        /** section4 **/
     .intro-title{
-        font-size: 5rem;
+        font-size: 4.5rem !important;
     }
     .intro-sub{
+        font-size: 1.4rem !important;
+    }
+
+            /** section5 **/
+    .emp-title {
+        font-size: 4rem !important;
+    }
+    
+    .emp-img {
+        width: 75% !important;
+    }
+
+    .yellow-txt {
         font-size: 1.3rem !important;
     }
 
-    .ceo-int{
-        font-size: 4rem;
-        margin-bottom: 5% !important;
+            /** section6 **/
+    .contact-title {
+        font-size: 4.5rem !important;
     }
 
-    .emp-int{
-        font-size: 2.9rem;   
+    .myContent {
+        height: 150px !important;
     }
 
-    .ceo-int img{
+    .contact-name {
+        font-size: 1rem !important;
+    }
+    .contact-img1{
+        width: 10% !important;
+    }
+    
+    .contact-img2{
         width: 40% !important;
     }
-    
-    .emp-int img{
-       width: 40% !important;
-    }
-
-    .contact-title {
-        font-size: 2.5rem;
-        color: #ffffff;
-        font-family: "TmonMonsori";
-        margin-top: 10%;
-        text-shadow: 10px 13px 23px black;
-    }
-
-    .contract-img1{
-        width: 90% !important;
-    }
-    
-    .contract-img2{
-        width: 90% !important;
-    }
-
-    .contact-title {
-        font-size: 2.5rem;
-        color: #ffffff;
-        font-family: "TmonMonsori";
-        margin-top: 10%;
-        text-shadow: 10px 13px 23px black;
-    }
-
-    .phone-box {
-        font-size: 6rem !important;
-    }
-    .contact-sub {
-        margin-top: 5% !important;
-        font-size: 2rem !important;
-        margin-left: 18% !important;
-    }
-
-
-
-
-
-
-    .partner-part{
-        height: 45px !important;
-        line-height: 56px;
-        width: 69% !important;
-        margin-left: 15% !important;
-
-    }
-
-    .ceo-part{
-        font-size: 1.6rem !important;
-        margin-top: 20%;
-        margin-bottom: 10% !important;
-        padding-left: 10% !important;
-    }
-
-    .exp-part{
-        font-size: 1.9rem !important;
-        padding-left: 10% !important;
-    }
-
-    .scroll-title{
-        width: 100%;
-    }
-
-    .hash-part{
-        font-size: 3.5rem !important;
-        text-align: center !important;
-    }
-
-    .jipsa-part {
-        font-size: 5rem !important;
-        text-align: center !important;
-    }
-
-    .jipsa-up-part {
-      font-size: 1.2rem;
-    }
-
-    .jipsa-up-bold {
-      font-size: 2rem!important;
-    }
-
-    .detail-part {
-        font-size: 2rem !important;
-        margin-top: 5% !important;
-        border-left: 0 !important;
-    }
-
-    .button-part {
-        margin-top: 0 !important;
-    }
-
-    .button-part img{
-        width: 30% !important;
-    }
-
-    .jipsa-button-style{
-        padding: 17px 35px !important;
-        margin-right: 15px !important;
-        font-size: 2rem !important;
-    }
-
-    
-    .myContent{
-        height: 300px !important;
-    }
-
-   
 }
 
 @media screen and (max-width:760px) {
@@ -765,253 +697,159 @@ nav div.logo a img{
     nav div.media_button {
         display: block;
     }
-
     p.result{
       font-size: 2rem !important;
       height: 29px !important;
       line-height: 29px !important;
       font-family: 'InkLipquid';
     }
-
     .intro-font{
         font-size: 4.5rem !important;
         margin-top: 7% !important;
     }
-
-    
-
     .intro-font img {
         width: 100%;
     }
-
     .scroll-title{
       font-size: 1.5rem !important;
     }
-
-
     .scroll-icon{
       font-size: 1.5rem !important;
     }
 
-
     /*customizing*/
+        /** section0 **/
     .main-title{
-        font-size: 2.6rem !important;
+        font-size: 4.6rem !important;
     }
 
     .main-sub{
         font-size: 1.8rem !important;
+        font-family: "Pretendard-Bold";
+    }
+        /** section1 **/
+    .app-area {
+        margin-left: 5% !important;
+        margin-top: 5%;
+    }
+    .app-sub img{
+        width: 20% !important;
+        margin-bottom: 5% !important;
+    } 
+
+    .app-sub{
+        font-size: 2.5rem !important;
+          
+    }
+    .app-sub-2{
+        font-size: 1.7rem !important;
+        
     }
     .app-img{
-        width: 60% !important;
-        margin-top: 10% !important;
-        margin-bottom: 10% !important;
-    }
-    .app-title{
-        text-align: center !important;
-        font-size: 8rem !important;
-    }
-    .app-sub{
-        font-size: 1.6rem !important;
-        text-align: center !important;    
-    }
-    .app-buttons{
-        margin-top: 15% !important; 
-        text-align: center !important;
-    }
-    .contract-img{
         width: 90% !important;
-        margin-bottom: 5% !important;
-        margin-top: 5% !important;
+        margin-top: 10% !important;
     }
-    .contract-title{
-        font-size: 2.1rem !important;
-        margin-bottom: 5% !important;
+
+    .app-buttons{
+        margin-top: 10% !important; 
         text-align: center !important;
-        margin-left: 0 !important;
+    }
+
+    .app-button-area{
+        margin-bottom: 10% !important; 
+    }
+
+            /** section2 **/
+    .contract-title{
+        font-size: 3.5rem !important;
+        margin-bottom: 5% !important;
     }
 
     .contract-sub {
         font-size: 1.7rem !important;
-        text-align: left !important;
-        margin-left: 5% !important;
-        margin-right: 5% !important;
         margin-bottom: 5% !important;
     }
-
+            /** section3 **/
     .service-title{
-        font-size: 4rem;
-        margin-bottom: 5%;
-        text-align: left;
-        color: #000;
-        font-family: "TmonMonsori";
-        text-shadow: 2px 4px 5px grey;
-    }
-
-    .service-img1{
-        width: 40% !important;
-    }
-    
-    .service-img2{
-        width: 40% !important;
-    }
-
-    .service-sub-1 p{
         font-size: 3rem !important;
+        margin-bottom: 5% !important;
+        font-family: "Pretendard-Bold" !important;
+    }
+    .service-img2{
+        width: 100% !important;
+    }
+
+    .service-sub-1{
+        font-size: 2.4rem !important;
     }
 
     .service-sub-1 p{
-        font-size: 1.5rem !important;
+        font-size: 1rem !important;
     }
 
     .service-sub-2{
-        font-size: 3rem !important;
+        font-size: 2.4rem !important;
     }
 
     .service-sub-2 p{
-        font-size: 1.4rem !important;
+        font-size: 1rem !important;
     }
-
+            /** section4 **/
     .intro-title{
-        font-size: 5rem;
-        color: #fff;
-        font-family: "TmonMonsori";
-        text-shadow: 10px 13px 23px black;
+        font-size: 4rem;
+        font-family: "Pretendard-Bold" !important;
     }
 
     .intro-sub {
-        font-size: 1.5rem !important;
+        font-size: 1rem !important;
         margin-bottom: 10% !important;
     }
-
-    .ceo-int{
-        font-size: 4rem;
-        margin-bottom: 5% !important;
-    }
-
+           /** section5 **/
     .emp-int{
         font-size: 2.9rem;   
     }
 
-    .ceo-int img{
-        width: 40% !important;
-    }
-    
-    .emp-int img{
-       width: 40% !important;
+    .yellow-txt {
+        font-size: 1rem !important;
     }
 
+    .intro-txt {
+        font-size: 1rem !important;
+    }
+
+ /** section6 **/
     .contact-title {
-        font-size: 2.5rem;
-        color: #ffffff;
-        font-family: "TmonMonsori";
-        margin-top: 10%;
-        text-shadow: 10px 13px 23px black;
-    }
-
-    .contract-img1{
-        width: 90% !important;
-    }
-    
-    .contract-img2{
-        width: 90% !important;
-    }
-
-    .contact-title {
-        font-size: 2.5rem;
-        color: #ffffff;
-        font-family: "TmonMonsori";
-        margin-top: 10%;
-        text-shadow: 10px 13px 23px black;
-    }
-
-    .phone-box {
-        font-size: 4rem !important;
-    }
-    .contact-sub {
-        margin-top: 5% !important;
-        font-size: 1.3rem !important;
-        margin-left: 5% !important;
+        font-size: 3.5rem !important;
+        font-family: "Pretendard-Bold" !important;
     }
 
     
-
-    
-
-    .partner-part{
-        height: 45px !important;
-        line-height: 56px;
-        width: 54% !important;
-        margin-left: 22% !important;
-
-    }
-
-    .ceo-part{
-        font-size: 1.5rem !important;
-        margin-top: 20%;
-        margin-bottom: 10% !important;
-        padding-left: 12% !important;
-    }
-
-    .exp-part{
-        font-size: 1.5rem !important;
-        padding-left: 12% !important;
-    }
-
-    .scroll-title{
-        width: 100%;
-    }
-
-    .hash-part{
-        font-size: 2rem !important;
-        text-align: center !important;
-    }
-
-    .jipsa-part {
-        font-size: 3rem !important;
-        text-align: center !important;
-    }
-
-    .jipsa-up-part {
-      font-size: 1rem;
-    }
-
-    .jipsa-up-bold {
-      font-size: 1.2rem!important;
-    }
-
-    .detail-part {
-        font-size: 1.6rem !important;
-        margin-top: 5% !important;
-        border-left: 0 !important;
-    }
-
-    .button-part {
-        margin-top: 0 !important;
-    }
-
-    .button-part img{
-        width: 30% !important;
-    }
-
     .jipsa-button-style{
         padding: 15px 23px !important;
         margin-right: 15px !important;
         font-size: 2rem !important;
     }
 
-    
+        /** section7 **/
     .myContent{
-        height: 200px !important;
+        height: 150px !important;
     }
 
     .contact-content{
       top: 50% !important;
     }
+
+    .contact-img1{
+        width: 20% !important;
+    }
+    
+    .contact-img2{
+        width: 50% !important;
+    }
 }
 
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:576px) {
     .clearfix{
         margin-left: 0;
     }
@@ -1025,7 +863,7 @@ nav div.logo a img{
         margin-left: 15px;
     }
     nav div.logo a img{
-        width: 45px;
+        width: 30px;
         float: left;
         margin-top: 4px;
     }
@@ -1095,78 +933,95 @@ nav div.logo a img{
 
 
 /*customizing*/
+    /** section0 **/
     .main-title{
-        font-size: 2rem !important;
+        font-size: 4rem !important;
     }
 
     .main-sub{
-        font-size: 1.5rem !important;
+        font-size: 1.4rem !important;
     }
+        /** section1 **/
     .app-img{
-        width: 60% !important;
-        margin-top: 10% !important;
-        margin-bottom: 10% !important;
+        width: 80% !important;
+        margin-top: 5% !important;
     }
     .app-title{
         text-align: center !important;
         font-size: 8rem !important;
     }
     .app-sub{
-        font-size: 1.3rem !important;
+        font-size: 2rem !important;
+        text-align: center !important;    
+    }
+    .app-sub-2{
+        font-size: 1.1rem !important;
         text-align: center !important;    
     }
     .app-buttons{
         margin-top: 15% !important; 
         text-align: center !important;
     }
+    .jipsa-button-style{
+        padding: 9px 16px !important;
+        margin-right: 15px !important;
+        font-size: 2rem !important;
+    }
+
+            /** section2 **/
     .contract-img{
         width: 90% !important;
         margin-bottom: 5% !important;
         margin-top: 5% !important;
     }
     .contract-title{
-        font-size: 1.8rem !important;
+        font-size: 3rem !important;
         margin-bottom: 5% !important;
         text-align: center !important;
         margin-left: 0 !important;
     }
 
     .contract-sub {
-        font-size: 1.3rem !important;
+        font-size: 1.6rem !important;
         text-align: left !important;
         margin-left: 5% !important;
         margin-right: 5% !important;
         margin-bottom: 5% !important;
     }
 
+                /** section3 **/
     .service-title{
         font-size: 3rem !important;
+        margin-right: 5% !important;
+    }
+    .service-title p {
+        margin-right: 5% !important;
     }
 
-    .service-img1{
-        width: 40% !important;
-    }
-    
     .service-img2{
-        width: 40% !important;
+        width: 100% !important;
     }
 
     .service-sub-1{
         font-size: 2.1rem !important;
+        margin-right: 5% !important;
     }
 
     .service-sub-1 p{
         font-size: 1rem !important;
+        margin-right: 0 !important;
     }
 
     .service-sub-2{
         font-size: 2.1rem !important;
+        margin-right: 5% !important;
     }
 
     .service-sub-2 p{
         font-size: 1rem !important;
+        margin-right: 0 !important;
     }
-
+  /** section3 **/
     .intro-title{
         font-size: 3rem !important;
     }
@@ -1175,55 +1030,48 @@ nav div.logo a img{
         font-size: 1rem !important;
         margin-bottom: 10% !important;
     }
-    
-    .ceo-int{
-        font-size: 4rem;
-        margin-bottom: 5% !important;
+      /** section4 **/
+    .emp-title {
+        display: none;
     }
-
     .emp-int{
-        font-size: 2.9rem;   
+        font-size: 1.1rem !important;
+        margin-top: 0 !important;   
+        margin-bottom: 3% !important;
     }
 
-    .ceo-int img{
-        width: 40% !important;
-    }
-    
-    .emp-int img{
-       width: 40% !important;
-    }
+    .emp-img{
+        width: 32% !important;
+     }
+     .name-txt {
+        font-size: 1.3rem !important;
+     }
+     .intro-txt {
+        margin-bottom: 3% !important;
+     }
 
+  /** section5 **/
     .contact-title {
-        font-size: 2.5rem;
-        color: #ffffff;
-        font-family: "TmonMonsori";
-        margin-top: 10%;
-        text-shadow: 10px 13px 23px black;
-    }
-
-    .contract-img1{
-        width: 90% !important;
-    }
-    
-    .contract-img2{
-        width: 90% !important;
-    }
-
-    .contact-title {
+        font-size: 2.5rem !important;
         margin-top: 6% !important;
     }
 
-    .phone-box {
-        font-size: 3rem !important;
-        margin-top: 0 !important;
+    .contact-img1{
+        width: 15% !important;
     }
-    .contact-sub {
-        margin-top: 5% !important;
-        font-size: 1.2rem !important;
-        margin-left: 0 !important;
+    
+    .contact-img2{
+        width: 70% !important;
     }
 
+  /** section6 **/
+  .myContent{
+    height: 200px !important;
+}
 
+.contact-content{
+  top: 50% !important;
+}
 
     .partner-part{
         height: 45px !important;
@@ -1281,20 +1129,9 @@ nav div.logo a img{
         width: 25% !important;
     }
 
-    .jipsa-button-style{
-        padding: 15px 23px !important;
-        margin-right: 15px !important;
-        font-size: 2rem !important;
-    }
+  
 
-    
-    .myContent{
-        height: 200px !important;
-    }
 
-    .contact-content{
-      top: 50% !important;
-    }
 }
 
 
@@ -1508,13 +1345,28 @@ nav div.logo a img{
 		background-attachment: fixed;
 	}
 #section0{
-    background-image: url('../images/main2.png');
+    background-image: url('../images/main_img.png');
     background-repeat:no-repeat;
     background-position: center;
 }
+#section2{
+    background-image: url('../images/handshake.png');
+    background-repeat:no-repeat;
+    background-position: left;
+}
 
-#section5{
+#section4{
+    background-image: url('../images/company.png');
+    background-repeat:no-repeat;
+    background-position: center;
+}
+/* #section5{
     background-image: url('../images/contact2.png');
+    background-repeat:no-repeat;
+    background-position: center;
+} */
+#section6{
+    background-image: url('../images/contact3.png');
     background-repeat:no-repeat;
     background-position: center;
 }
@@ -1662,54 +1514,55 @@ padding: 0 10px;
     text-align: left;
     font-size: 6rem;
     width: 100%; 
-    font-family: "TmonMonsori";
-    text-shadow: 5px 6px 23px black;
+    font-family: "Pretendard-Bold";
+    
 }
 
 .main-sub{
     font-size: 2.9rem;
     text-align: left;    
-    font-family: "TmonMonsori";
-    text-shadow: 5px 6px 23px black;
+    font-family: "Pretendard-Medium";
 }
+
+.app-area{
+    margin-left: 30%;
+}
+
 .app-img{
-    width: 70%;
+    width: 100%;
     margin-top: 20%;
+    padding-right: 10%;
 }
 .app-title{
     text-align: left;
-    font-size: 14rem;
+    font-size: 10rem;
     width: 100%; 
-    color: #FFF;
-    font-family: "TmonMonsori";
-    text-shadow: 10px 13px 23px black;
+    font-family: "Pretendard-Bold";
 }
 .app-sub{
-    font-size: 3rem;
-    text-align: left;    
-    font-family: "TmonMonsori";
-    color: #FFD664;
-    text-shadow: 5px 6px 23px black;
+    text-align: left;
+    font-size: 4rem;  
+    font-family: "Pretendard-Bold";
+}
+.app-sub-2{
+    text-align: left;
+    font-size: 2rem;  
+    font-family: "Pretendard-Bold";
 }
 .app-buttons{
     margin-top: 5%; 
     text-align: left;
 }
-.contract-img1{
-    width: 70% ;
-}
 
-.contract-img2{
-    width: 50% ;
-}
 .contract-title{
     font-size: 4rem;
+    margin-top: 10%;
     margin-bottom: 5%;
     text-align: left;
     color: #000;
     margin-left: 20%;
-    font-family: "TmonMonsori";
-    text-shadow: 2px 4px 5px grey;
+    font-family: "Pretendard-Bold";
+    
 }
 
 .contract-sub {
@@ -1717,137 +1570,187 @@ padding: 0 10px;
     text-align: left;
     color: #000;
     margin-left: 20%;
-    font-family: "TmonMonsori";
-    text-shadow: 2px 4px 5px grey;
+    font-family: "Pretendard-Medium";
+    
 }
 
 .service-title{
-    font-size: 4rem;
-    margin-bottom: 5%;
-    text-align: left;
-    color: #000;
-    font-family: "TmonMonsori";
-    text-shadow: 2px 4px 5px grey;
+    font-size: 5rem;
+    text-align: right;
+    color: #fff;
+    font-family: "Pretendard-Bold";
+    margin-bottom: 10%;
 }
 
-.service-img1{
-    width: 50%;
-}
+.service-title p{
+    margin-bottom: 10%;
 
+}
 .service-img2{
-    width: 47%;
+    width: 100%;
 }
 
 .service-sub-1{
     font-size: 4rem;
     margin-bottom: 5%;
-    font-family: "TmonMonsori";
-    color: #3E3A45;
-    text-shadow: 2px 4px 5px grey;
+    font-family: "Pretendard-Bold";
+    color: #fff;
+    
 }
 
 .service-sub-1 p{
     font-size: 2rem;
     margin-bottom: 5%;
-    color: #3E3A45;
-    font-family: "GmarketSansTTFMedium";
-    text-shadow: 2px 4px 5px grey;
+    color: #ffffff;
+    
+    font-family: "Pretendard-Medium";
+    
 }
 
 .service-sub-2{
     font-size: 4rem;
     margin-bottom: 5%;
-    color: #3E3A45;
-    font-family: "TmonMonsori";
-    text-shadow: 2px 4px 5px grey;
+    color: #ffffff;
+    font-family: "Pretendard-Bold";
+    
 }
 
 .service-sub-2 p{
     font-size: 2rem;
     margin-bottom: 5%;
-    color: #3E3A45;
-    font-family: "GmarketSansTTFMedium";
-    text-shadow: 2px 4px 5px grey;
+    color: #ffffff;
+    font-family: "Pretendard-Medium";
+    
 }
 
 .intro-title{
     font-size: 5rem;
     color: #fff;
-    font-family: "TmonMonsori";
-    text-shadow: 10px 13px 23px black;
+    font-family: "Pretendard-Bold";
+    
 }
 .intro-sub{
     font-size: 2rem;
     color: #fff;
     /* font-family: "TmonMonsori"; */
-    font-family: "GmarketSansTTFMedium";
-    text-shadow: 10px 13px 23px black;
+    font-family: "Pretendard-Medium";
+    
 }
 
-.ceo-int{
-    font-size: 4rem;
-    color: #C8A063;
+.emp-title{
+    font-size: 5rem;
     text-align: left;
-    font-family: "TmonMonsori";
+    color: #000;
+    font-family: "Pretendard-Bold";
+    margin-bottom: 10%;
 }
 
 .emp-int{
-    font-size: 2.9rem;
-    color: #C8A063;
+    font-size: 2rem;
+    margin-left: 15%;
     text-align: left;
-    font-family: "TmonMonsori";
+    font-family: "Pretendard-Medium";
+    margin-top: 5%;
 }
 
-.ceo-int img{
-    width: 50%;
+.yellow-txt{
+    color: #C8A063;
+    font-family: "Pretendard-Medium";
+    font-size: 1.5rem;
 }
+
+.name-txt{
+    font-family: "Pretendard-Bold";
+    font-size: 2rem;
+}
+
+.intro-txt{
+    color: #707070;
+    font-family: "Pretendard-Medium";
+    font-size: 1.5rem;
+}
+
 
 .emp-int img{
    width: 50%;
+   text-align: center;
 }
 
 .contact-title {
-    font-size: 2.5rem;
+    font-size: 5.5rem;
     color: #ffffff;
-    font-family: "TmonMonsori";
-    margin-top: 10%;
-    text-shadow: 10px 13px 23px black;
+    font-family: "Pretendard-Medium";
+    line-height: 2;   
 }
 
-.phone-box {
-    font-family: "TmonMonsori";
-    margin-top: 15%; 
-    font-size: 6rem;
+.contact-img1{
+    width: 10%;
+}
+
+.contact-img2{
+    width: 40% ;
 }
 
 
 .contact-sub {
-    margin-top: 5%;
-    font-size: 2.5rem;
+    margin-top: 15%;
+    font-size: 1.5rem;
     color: #ffffff;
-    font-family: "TmonMonsori";
-    margin-left: 30%;
+    font-family: "Pretendard-Medium";
     text-align: left;
+    
+}
+
+.contact-box {
+    font-family: "Pretendard-Medium";
+    color: #FFCD4A;
+}
+
+.company-sub {
+    margin-top: 5%;
+    font-size: 1.4rem;
+    color: #C2C2C2;
+    font-family: "Pretendard-Medium";
+    text-align: center;
     text-shadow: 10px 13px 23px black;
 }
 
-.company-box {
-    font-family: "TmonMonsori";
-    color: #FFCD4A;
+.contact-box {
+    font-family: "Pretendard-Medium";
+    color: #ffffff;
 }
+
+.contact-part {
+    font-size: 2.4rem;
+    color: #ffffff;
+    
+}
+
+
+
+.red-txt{
+    font-family: "Pretendard-Medium";
+    color: #D94925;
+}
+
+.blue-txt{
+    font-family: "Pretendard-Bold";
+    color: #245AC6;
+}
+
 
 
 .ceo-part{
     font-size: 2.9rem;
     text-align: left;    
-    font-family: "GmarketSansTTFMedium";
+    font-family: "Pretendard-Medium";
 }
 
 .exp-part{
     font-size: 3rem;
     text-align: left;
     padding-left: 10%;
-    font-family: "GmarketSansTTFLight";
+    font-family: "Pretendard-Medium";
 }
 
 .scroll-title{
@@ -1871,7 +1774,7 @@ padding: 0 10px;
 }
 
 .jipsa-part span{
-  font-family: "GmarketSansTTFBold";
+  font-family: "Pretendard-Medium";
 }
 
 .detail-part {
@@ -1886,6 +1789,7 @@ padding: 0 10px;
 .button-part {
     font-size: 2.4rem;
     color: #ffffff;
+    
 }
 
 .button-part img {
@@ -1894,16 +1798,20 @@ padding: 0 10px;
 
 
 .jipsa-button-style{
-    border: 1px solid #ffffff;
-    padding: 20px 47px;
+    border: 1px solid #568A35;
+    padding: 14px 35px;
     margin-right: 25px;
     font-size: 1.7rem;
     font-weight: 500;
+    background-color: #568A35;
+    color: #ffffff;
+    font-family: "Pretendard-Bold";
+    border-radius: 3rem;
 }
 .jipsa-button-style:hover{
-    background: #ffffff;
-    color: black;
-
+    background: white;
+    color: #568A35;
+    
 }
 
 #typed1{
@@ -1924,45 +1832,27 @@ padding: 0 10px;
 
 .contact-content{
   position: absolute;
-  top: 65%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  font-family: "Pretendard-Medium";
 }
 
-.contact-title{
+/* .contact-title{
   text-align: center;
   font-size: 3.5rem;
   font-weight: 900;
   text-transform: uppercase;
-}
-
-.contact-email{
-  background: transparent;
-  color: #FFFFFF;
-  display: block;
-  width: 100%;
-  height: 60px;
-  padding: 15px;
-  border: 1px solid #FFFFFF;
-  border-radius: 5px;
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  margin: 10px 0;
-  line-height: 0;
-}
-.contact-email:hover{
-  background: #FFFFFF;
-  color: #FFB100;
-}
+} */
 
 .contact-name{
   text-align: center;
   font-weight: 800;
   font-size: 1.3rem;
+  font-family: "Pretendard-Medium";
 }
 
 .myContent{
-        height: 350px;
+        height: 150px;
       }

@@ -14,20 +14,18 @@ $header_top.find('a').on('click', function() {
 
 // fullpage customization
 $('#fullpage').fullpage({
-  // sectionsColor: ['#FFFFF', '#568A35', '#F9F9F9', '#F9F9F9', '#164391', '#3E3A45','#568A35'],
-  sectionsColor: ['#FFFFF', '#568A35', '#F9F9F9', '#F9F9F9', '#164391', '#568A35'],
+  sectionsColor: ['#FFFFF', '#FFFFFF', '#ffffff', '#3E3A45', '#164391', '#FFFFFF','#568A35','#568A35'],
   sectionSelector: '.vertical-scrolling',
   slideSelector: '.horizontal-scrolling',
   navigation: false,
   slidesNavigation: true,
   controlArrows: false,
-  // anchors: ['home','service','service1','service2', 'intro',  'introduce', 'contact'],
-  anchors: ['home','service','service1','service2', 'intro',  'contact'],
+  anchors: ['home','service','service1','service2', 'intro',  'introduce', 'contact', 'footer'],
   menu: '#menu',
 
   afterLoad: function(origin, destination, direction) {
-    $header_top.css('background', 'rgba(0, 47, 77, .3)');
-    $nav.css('background', 'rgba(0, 0, 0, 1)');
+    $header_top.css('background', 'rgba(0, 47, 77, 0.3)');
+    $nav.css('background', 'rgba(0, 0, 0, 0.2)');
     if (origin.index == 5) {
         $('#fp-nav').hide();
       } 
