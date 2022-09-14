@@ -1336,7 +1336,7 @@ nav div.logo a img{
     background-color: #111;
 }
 
-#section0,
+/* #section0,
 	#section1,
 	#section2,
 	#section3,
@@ -1347,22 +1347,28 @@ nav div.logo a img{
     #slide2{
 		background-size: cover;
 		background-attachment: fixed;
-	}
+	} */
 #section0{
     background-image: url('../images/main_img.png');
     background-repeat:no-repeat;
     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #section2{
     background-image: url('../images/handshake2.png');
     background-repeat:no-repeat;
     background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #section4{
     background-image: url('../images/company2.png');
     background-repeat:no-repeat;
     background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
 }
 /* #section5{
     background-image: url('../images/contact2.png');
@@ -1373,6 +1379,8 @@ nav div.logo a img{
     background-image: url('../images/contact4.png');
     background-repeat:no-repeat;
     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #section0 h2, #section0 h3 {
