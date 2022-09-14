@@ -1041,7 +1041,7 @@ nav div.logo a img{
     }
 
     .emp-img{
-        width: 32% !important;
+        width: 27% !important;
      }
      .name-txt {
         font-size: 1.3rem !important;
@@ -1352,13 +1352,13 @@ nav div.logo a img{
 #section2{
     background-image: url('../images/handshake.png');
     background-repeat:no-repeat;
-    background-position: left;
+    background-position: right;
 }
 
 #section4{
     background-image: url('../images/company.png');
     background-repeat:no-repeat;
-    background-position: center;
+    background-position: left;
 }
 /* #section5{
     background-image: url('../images/contact2.png');
