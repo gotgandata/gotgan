@@ -952,11 +952,14 @@ nav div.logo a img{
     }
     .app-sub{
         font-size: 2rem !important;
-        text-align: center !important;    
+        text-align: left !important;   
+        margin-left: 5% !important; 
     }
     .app-sub-2{
         font-size: 1.1rem !important;
-        text-align: center !important;    
+        text-align: left !important;
+        margin-left: 5% !important;
+        margin-right: 10% !important;    
     }
     .app-buttons{
         margin-top: 15% !important; 
@@ -977,15 +980,15 @@ nav div.logo a img{
     .contract-title{
         font-size: 3rem !important;
         margin-bottom: 5% !important;
-        text-align: center !important;
-        margin-left: 0 !important;
+        text-align: left !important;
+        margin-left: 10% !important;
     }
 
     .contract-sub {
         font-size: 1.6rem !important;
         text-align: left !important;
-        margin-left: 5% !important;
-        margin-right: 5% !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
         margin-bottom: 5% !important;
     }
 
@@ -1072,55 +1075,15 @@ nav div.logo a img{
 .contact-content{
   top: 50% !important;
 }
-
-    .partner-part{
-        height: 45px !important;
-        line-height: 56px;
-        width: 37% !important;
-        margin-left: 31% !important;
-
-    }
-
-    .ceo-part{
-        font-size: 1.5rem !important;
-        margin-top: 20%;
-        margin-bottom: 10% !important;
-        padding-left: 12% !important;
-    }
-
-    .exp-part{
-        font-size: 1.5rem !important;
-        padding-left: 12% !important;
-    }
-
+.phone-button-style{
+    padding: 1px 25px !important;
+    font-size: 2rem !important;
+}
     .scroll-title{
         width: 100%;
     }
 
-    .hash-part{
-        font-size: 2.5rem !important;
-        text-align: center !important;
-    }
-
-    .jipsa-part {
-        font-size: 4rem !important;
-        text-align: center !important;
-    }
-
-    .jipsa-up-part {
-      font-size: 1.2rem;
-    }
-
-    .jipsa-up-bold {
-      font-size: 1.8rem!important;
-    }
-
-    .detail-part {
-        font-size: 1.4rem !important;
-        margin-top: 5% !important;
-        border-left: 0 !important;
-    }
-
+ 
     .button-part {
         margin-top: 0 !important;
     }
@@ -1553,7 +1516,7 @@ padding: 0 10px;
 }
 .app-sub-2{
     text-align: left;
-    font-size: 2rem;  
+    font-size: 2.5rem;  
     font-family: "Pretendard-Bold";
 }
 .app-buttons{
@@ -1577,7 +1540,7 @@ padding: 0 10px;
 }
 
 .contract-sub {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: left;
     color: #000;
     margin-left: 20%;
@@ -1811,7 +1774,18 @@ padding: 0 10px;
     width: 20%;
 }
 
-
+.phone-button-style{
+    border: 1px solid #568A35;
+    padding: 1px 36px;
+    margin-right: 25px;
+    font-size: 3rem;
+    font-weight: 500;
+    background-color: #568A35;
+    color: #ffffff;
+    font-family: "Pretendard-Bold";
+    border-radius: 3rem;
+    display: inline-block;
+}
 .jipsa-button-style{
     border: 1px solid #568A35;
     padding: 14px 35px;
