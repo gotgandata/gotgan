@@ -827,7 +827,7 @@ nav div.logo a img{
     .jipsa-button-style{
         padding: 15px 23px !important;
         margin-right: 15px !important;
-        font-size: 2rem !important;
+        font-size: 1.3rem !important;
     }
 
         /** section7 **/
@@ -1585,6 +1585,10 @@ padding: 0 10px;
     
 }
 
+.contract-img2 {
+    width: 40%;
+}
+
 .service-title{
     font-size: 5rem;
     text-align: right;
@@ -1699,7 +1703,7 @@ padding: 0 10px;
 }
 
 .contact-img2{
-    width: 40% ;
+    width: 30% ;
 }
 
 
@@ -1818,6 +1822,7 @@ padding: 0 10px;
     color: #ffffff;
     font-family: "Pretendard-Bold";
     border-radius: 3rem;
+    display: inline-block;
 }
 .jipsa-button-style:hover{
     background: white;
