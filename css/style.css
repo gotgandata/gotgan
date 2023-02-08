@@ -1313,14 +1313,14 @@ nav div.logo a img{
     background-position: center;
 
 }
-#section2{
+/* #section2{
     background-image: url('../images/handshake.png');
     background-repeat:no-repeat;
     background-position: right;
   
-}
+} */
 
-#section4{
+#section3{
     background-image: url('../images/company.png');
     background-repeat:no-repeat;
     background-position: left;
@@ -1331,7 +1331,7 @@ nav div.logo a img{
     background-repeat:no-repeat;
     background-position: center;
 } */
-#section6{
+#section5{
     background-image: url('../images/contact3.png');
     background-repeat:no-repeat;
     background-position: center;
