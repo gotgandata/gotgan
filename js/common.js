@@ -14,13 +14,13 @@ $header_top.find('a').on('click', function() {
 
 // fullpage customization
 $('#fullpage').fullpage({
-  sectionsColor: ['#FFFFF', '#FFFFFF', '#ffffff', '#3E3A45', '#164391', '#FFFFFF','#568A35','#568A35'],
+  sectionsColor: ['#FFFFF', '#FFFFFF', '#3E3A45', '#164391', '#FFFFFF','#568A35','#568A35'],
   sectionSelector: '.vertical-scrolling',
   slideSelector: '.horizontal-scrolling',
   navigation: false,
   slidesNavigation: true,
   controlArrows: false,
-  anchors: ['home','service','service1','service2', 'intro',  'introduce', 'contact', 'footer'],
+  anchors: ['home','service','service1', 'intro',  'introduce', 'contact', 'footer'],
   menu: '#menu',
 
   afterLoad: function(origin, destination, direction) {
