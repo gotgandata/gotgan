@@ -344,7 +344,7 @@ nav {
     width: 50%;
     height: auto;
     
-   left: 0;
+    left: 0;
     top: 5px;
     position: absolute;
 }
@@ -660,7 +660,7 @@ nav div.logo a img{
         margin-left: 15px;
     }
     nav div.logo a img{
-        width: 150px;
+        width: 200px;
     }
     nav div.main_list {
         width: 100%;
@@ -863,7 +863,7 @@ nav div.logo a img{
         margin-left: 15px;
     }
     nav div.logo a img{
-        width: 100px;
+        width: 150px;
         float: left;
         margin-top: 4px;
     }
