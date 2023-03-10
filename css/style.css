@@ -416,7 +416,7 @@ nav {
 
 nav div.logo a img{
     float: left;
-    width: 50px;
+    width: 200px;
     margin-left: 20%;
     margin-top: 5px;
     }
@@ -660,7 +660,7 @@ nav div.logo a img{
         margin-left: 15px;
     }
     nav div.logo a img{
-        width: 60px;
+        width: 150px;
     }
     nav div.main_list {
         width: 100%;
@@ -863,7 +863,7 @@ nav div.logo a img{
         margin-left: 15px;
     }
     nav div.logo a img{
-        width: 30px;
+        width: 100px;
         float: left;
         margin-top: 4px;
     }
